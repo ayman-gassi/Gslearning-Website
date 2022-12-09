@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+   background-repeat: no-repeat;
+   background-color: #4DCAC6;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    opacity: 92%;
+    width: 100%;
+    height: 50px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+}
+.logo{
+    display: flex;
+    margin-left: 15px;
+}
+.logo p{
+    margin-top: 13px;
+    font-size: 22px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.logo img{
+    width: 50px;
+}
+.pages{
+    margin-right: 20px;
+    margin-top: 13px;
+}
+.pages ul li {
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17.5px;
+    color: black;
+    display: inline-flex;
+    margin-left: 16px;
+    
+}
+.pg  a{
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.pg a :hover{
+    border-bottom: solid #4DCAC6;
+    transform: scale(1.1);
+}
+.h li{
+    border-bottom: solid #4DCAC6;
+    width: 73px;
+}
+body h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 38px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    width: 800px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    opacity: 90%;
+    width: 500px;
+    border-radius: 8px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    opacity: 90%;
+}
+form input{
+    width: 250px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border-bottom: black solid;
+    transform: translate(50%);
+    margin-bottom: 26px;
+    text-align: center;
+}
+form textarea{
+    width: 250px;
+    height: 150px;
+    border: black solid;
+    transform: translate(48%);
+    padding-left: 5px;
+    resize: none;
+    padding-top: 5px;
+}
+form button{   
+    width: 250px;
+    height: 32px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 25.8%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bolder;
+        background-color:#64d6d2;
+        cursor: pointer;
+}
+form button:hover{
+    transform: scale(1.1);
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+.alert{
+    display: flex;
+    width: 280px;
+    background-color: rgb(185, 102, 101);
+    height:30px ;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 1%;
+    position: absolute;
+    opacity: 90%;
+}
+.alert1{
+    display: flex;
+    width: 280px;
+    background-color: rgb(162, 232, 172);
+    height:30px ;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 1%;
+    position: absolute;
+    opacity: 90%;
+}
+@media screen and (max-width:414px) and (max-height: 869px) {
+ 
+    .navbar{
+       width : 900px;
+       height : 600px;
+       display: block;
+   }
+    .navbar img{
+        width:150px;
+        margin-left: 355px;
+        margin-bottom:10px;
+    }
+   .navbar p{
+       display:none;
+   }
+    .navbar ul{
+        width:380px;
+        margin-left:280px;
+        display: block;
+    }
+   .navbar ul li {
+       font-size:50px;
+       margin-bottom: 20px;
+       display: block;
+       width:300px;
+   }
+    .container{
+        display:block;
+    }
+    body h2{
+        margin-left: 200px;
+        width:500px;
+        font-size:50px;
+        margin-top: 40px;
+    }
+    .container .pic{
+        margin-left: 120px;
+    }
+    .container form{
+        margin-left: 70px;
+        width:700px;
+        height: 600px;
+    }
+    form input{
+    width: 500px;
+    height: 60px;
+    border-bottom: black solid;
+    transform: translate(22%,50%);
+    text-align: center;
+        font-size:30px;
+}
+form textarea{
+    width: 500px;
+    height: 180px;
+    transform: translate(20%,25%);
+    font-size:30px;
+}
+form button{   
+    width: 350px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 80px;
+    margin-left: 25%;
+  font-size:28px;
+}
+}
